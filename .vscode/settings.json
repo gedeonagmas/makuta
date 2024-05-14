@@ -1,0 +1,7 @@
+{
+  "cSpell.words": ["apicache", "cloudinary", "Flowbite", "reduxjs", "virtuals"],
+  "scss.lint.unknownAtRules": "ignore",
+  "workbench.settings.useSplitJSON": false,
+  "css.lint.unknownAtRules": "ignore",
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }]
+}

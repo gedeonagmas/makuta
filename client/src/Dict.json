@@ -1,0 +1,17 @@
+[
+  {
+    "en": {
+      "password_lable": "Enter Your Password"
+    }
+  },
+  {
+    "am": {
+      "password_lable": ""
+    }
+  },
+  {
+    "fr": {
+      "password_lable": ""
+    }
+  }
+]

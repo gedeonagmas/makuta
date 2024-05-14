@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  display: none;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  height: 0px;
+  background: rgba(0, 0, 0, 0.2);
+} */
+/* * { */
+/* border-style: solid;
+  border-color: rgb(77, 78, 78);
+  border-width: 1px; */
+/* } */
+
+/* default scroll bar */
+/* ::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(224, 224, 224);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(124, 124, 124, 0.589);
+  border-radius: 0px;
+} */
+
+/* home-lawyer-list-card */
+
+#home-lawyer-list-card::-webkit-scrollbar {
+  width: 0px;
+}
+
+#home-lawyer-list-card:hover::-webkit-scrollbar {
+  width: 3px;
+}
+
+#home-lawyer-list-card::-webkit-scrollbar-track {
+  background: rgb(219, 219, 219);
+  width: 2px;
+}
+#home-lawyer-list-card::-webkit-scrollbar-thumb {
+  background: rgb(185, 185, 185);
+  width: 2px;
+}
+
+/* custome header */
+/* case-team-table-container */
+#case-team-table-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+#case-team-table-container::-webkit-scrollbar-track {
+  background-color: rgb(194, 194, 194);
+  border-radius: 4px;
+}
+
+#case-team-table-container::-webkit-scrollbar-thumb {
+  background-color: rgb(160, 160, 160);
+  border-radius: 4px;
+}
+
+/* case-history-list-container */
+#case-history-list-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+#case-history-list-container::-webkit-scrollbar-track {
+  background-color: rgb(232, 232, 232);
+  border-radius: 4px;
+}
+
+#case-history-list-container::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 185, 185);
+  border-radius: 4px;
+}
+
+/* home accordion border width and color */
+.home-accordion-main-container {
+  @apply p-3 flex flex-col items-start justify-start shadow-sm px-[1%] rounded-md mb-3 w-[95%];
+}
+
+/* stepper */
+.steper-circle-off {
+  @apply flex items-center justify-center border-2 border-gray-300 text-gray-500 w-[34px] h-[34px] rounded-full cursor-pointer;
+}
+.steper-circle-on {
+  @apply flex items-center justify-center border-2 border-blue-700 bg-blue-700 text-white w-[34px] h-[34px] rounded-full cursor-pointer;
+}
+
+.stepper-bar-off {
+  @apply h-[2px] w-[50px] rounded-full mx-1 sm:w-[30px] md:w-[100px] lg:w-[150px] bg-blue-200;
+}
+.stepper-bar-on {
+  @apply h-[2px] w-[50px] rounded-full mx-1 sm:w-[30px] md:w-[100px] lg:w-[150px] bg-blue-700;
+}
+
+/* ////////////////////////////////////// */
+.main-nav-list-item {
+  @apply text-[.95rem] text-gray-700 cursor-pointer border-b mb-1 uppercase border-gray-200 pb-2;
+}
+
+.main-nav-list-header {
+  @apply flex items-center justify-between gap-x-16 [&>*:nth-child(2)]:text-[1.3rem];
+}
+
+.second-order-ul {
+  @apply ml-5 [&>li]:border-b [&>li]:border-gray-200 [&>li]:pb-1 [&>li]:my-1;
+}
+
+/* secondary  cards background */
+.secondary-cards-bg {
+  @apply bg-white bg-opacity-[.2];
+}
+
+.container {
+  @apply w-full  text-gray-500 h-[80vh] bg-gray-200 flex items-center justify-center flex-col;
+}
+.inputField {
+  @apply w-full rounded-sm border px-2 py-2 border-blue-400 focus:outline-blue-500;
+}
+.label {
+  @apply mt-4 py-1 self-start;
+}
+.small {
+  @apply text-[10.56px] font-semibold;
+}
+.title {
+  @apply text-[15px];
+}
+.medium {
+  @apply text-[14px];
+}
+.center {
+  @apply flex flex-col w-full items-center justify-center h-full;
+}
+.button-nb {
+  @apply px-3 py-[6px] border text-black border-gray-200  rounded-sm;
+}
+.grids {
+  @apply grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+.input {
+  @apply border border-gray-300 p-2 rounded-sm;
+}
+/* addiss */
+
+/* default scroll bar */
+/* ::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(194, 194, 194);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(160, 160, 160);
+  border-radius: 4px;
+} */
+
+/* custome header */
+/* case-team-table-container */
+#case-team-table-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+#case-team-table-container::-webkit-scrollbar-track {
+  background-color: rgb(194, 194, 194);
+  border-radius: 4px;
+}
+
+#case-team-table-container::-webkit-scrollbar-thumb {
+  background-color: rgb(160, 160, 160);
+  border-radius: 4px;
+}
+
+/* case-history-list-container */
+#case-history-list-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+#case-history-list-container::-webkit-scrollbar-track {
+  background-color: rgb(232, 232, 232);
+  border-radius: 4px;
+}
+
+#case-history-list-container::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 185, 185);
+  border-radius: 4px;
+}
+
+/* home accordion border width and color */
+.accordion-border-width-color {
+  @apply border-b-2 border-gray-300;
+}
+
+/* stepper */
+.steper-circle-off {
+  @apply flex items-center justify-center border-2 border-gray-300 text-gray-500 w-[34px] h-[34px] rounded-full cursor-pointer;
+}
+.steper-circle-on {
+  @apply flex items-center justify-center border-2 border-blue-700 bg-blue-700 text-white w-[34px] h-[34px] rounded-full cursor-pointer;
+}
+
+.stepper-bar-off {
+  @apply h-[3px] w-[50px] sm:w-[30px] md:w-[100px] lg:w-[150px] bg-blue-200;
+}
+.stepper-bar-on {
+  @apply h-[3px] w-[50px] sm:w-[30px] md:w-[100px] lg:w-[150px] bg-blue-700;
+}
+
+/* ////////////////////////////////////// */
+.main-nav-list-item {
+  @apply text-[.95rem] text-gray-700 cursor-pointer border-b mb-1 uppercase border-gray-200 pb-2;
+}
+
+.main-nav-list-header {
+  @apply flex items-center justify-between gap-x-16 [&>*:nth-child(2)]:text-[1.3rem];
+}
+
+.second-order-ul {
+  @apply ml-5 [&>li]:border-b [&>li]:border-gray-200 [&>li]:pb-1 [&>li]:my-1;
+}
+
+/* secondary  cards background */
+.secondary-cards-bg {
+  @apply bg-white bg-opacity-[.2];
+}
+
+.ck-editor__editable_inline {
+  min-height: 250px;
+  /* max-width: 300px; */
+}
+
+/* lawyer dashboard constants */
+.lawyer-case-number {
+  @apply text-[1.2rem] font-semibold text-gray-800 text-center;
+}
+
+/* home list item */
+
+.home-nav-list-item {
+  @apply my-5 pr-20;
+}
+
+.home-nav-list-item-icon {
+  @apply text-[1.25rem] ml-1;
+}
+
+/* dashboard nav */
+
+.dashboard-active-link-color {
+  @apply text-yellow-500 font-semibold border-l-4 border-yellow-500 pl-1;
+}
+
+.dahboard-active-link-icon-color {
+  @apply text-yellow-500;
+}
+
+.dashboard-link-item-my {
+  @apply my-5 text-[.85rem]  transition-all ease-in-out duration-300 hover:font-[600] hover:text-gray-900;
+}
+
+.dashboard-main-list-item {
+  @apply flex items-center justify-between w-[85%] cursor-pointer;
+}
+
+.dashboard-sub-link-items {
+  @apply pl-[15%] py-[.25rem] bg-white rounded-sm mr-1 mt-1 transition-all ease-in-out duration-300 hover:bg-gray-100 hover:font-[600] hover:text-gray-900;
+}
+/* home */
+.home-submenu-popup-ul {
+  @apply bg-white absolute left-0 top-[150%] z-[1200] w-max p-3 px-5 shadow-lg font-normal;
+}
+
+/* video call styling */
+
+/* ///////////////////////////////// */
+/* circle */
+.step-circle {
+  @apply w-[18px] h-[18px] text-[.85rem] sm:w-[24px] sm:h-[24px] sm:text-[.9rem] shrink-0 rounded-full border-2 flex items-center justify-center cursor-pointer;
+}
+/* off circle */
+.step-circle-off {
+  @apply border-gray-400 text-gray-400;
+}
+/* on circle */
+.step-circle-on {
+  @apply border-blue-600 bg-blue-600 text-white;
+}
+
+/* off bar */
+.step-bar {
+  @apply w-full h-[3px] rounded-lg;
+}
+.step-bar-off {
+  @apply bg-gray-400;
+}
+/* on bar */
+.step-bar-on {
+  @apply bg-blue-600;
+}
+
+/* step hint text */
+.step-hint-text-circle {
+  @apply flex items-center justify-center p-1 w-[20px] text-[.85rem] font-black h-[20px] rounded-full border;
+}
+
+.step-hint-text-circle-off {
+  @apply border-gray-400 text-gray-400 text-[.95rem]  scale-[.85] transition-all ease-in-out duration-300;
+}
+
+.step-hint-text-circle-on {
+  @apply border-blue-600 text-blue-600 sm:text-[.85rem] md:text-[.95rem] scale-[1] transition-all ease-in-out duration-300;
+}
+
+/* main link hover effect */
+.main-link-hover-effect {
+  @apply after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-[0px] after:h-[3px] after:transition-all after:ease-in-out after:duration-300 hover:after:w-full after:bg-gray-700;
+}
