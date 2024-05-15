@@ -39,7 +39,7 @@ app.use("/makuta/app/v1/user", router);
 app.use("/makuta/app/v1/account", accountRouter);
 app.use("/makuta/app/v1/chat", chatRouter);
 
-app.get("/", (req, res) => {
+app.get("/api/v1/", (req, res) => {
   res.json("Hello from makuta server");
 });
 
@@ -277,7 +277,7 @@ mongodb()
       });
     });
 
-    httpServer.listen(5000, (err) => {
+    httpServer.listen(process.env.PORT, "makutalawfirm.com", (err) => {
       if (err) {
         console.log("something went wrong server not connected");
       }
